@@ -37,3 +37,15 @@ button {
 body {
   background-color: #D8D09B;
 }
+
+#receipt h5 {
+  font-size: 24pt;
+}
+
+#receipt h4 {
+  font-size: 30pt;
+}
+
+#receipt p {
+  font-size: 16pt;
+}

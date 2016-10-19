@@ -16,6 +16,7 @@ $(document).ready(function() {
     $("#stateOut").text(state);
     $("#zipOut").text(zip);
     $("#genderOut").text(gender);
+    $("form#name").hide();
 
     $("#receipt").show();
     $("#"+gender+"Img").show();
