@@ -7,9 +7,17 @@ $(document).ready(function() {
     var city = $("input#cityInput").val();
     var state = $("input#stateInput").val();
     var zip = $("input#zipInput").val();
+    var gender = $("input:radio[name=gender]:checked").val();
 
-    $("")
+    $("#firstNameOut").text(firstName);
+    $("#lastNameOut").text(lastName);
+    $("#streetOut").text(street);
+    $("#cityOut").text(city);
+    $("#stateOut").text(state);
+    $("#zipOut").text(zip);
+    $("#genderOut").text(gender);
 
-
-  })
-})
+    $("#receipt").show();
+    $("#"+gender+"Img").show();
+  });
+});

@@ -1,3 +1,39 @@
 #receipt {
   display: none;
 }
+#maleImg {
+  display: none;
+  border: 15px solid skyblue;
+}
+#femaleImg {
+  display: none;
+  border: 15px solid pink;
+}
+img {
+  width: 500px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: #9F572B;
+  background-color: #B6BC88;
+}
+
+#r {
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.jumbotron h4 {
+  font-style: italic;
+}
+
+button {
+  height: 100px;
+  width: 250px;
+  background-color: #7FA292;
+  color: #FFF;
+}
+body {
+  background-color: #D8D09B;
+}

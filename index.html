@@ -9,8 +9,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Ferrets'R'Us</h1>
-      <h4>Purchase your new furry pet today!</h4>
+      <div class="jumbotron">
+        <h1>Ferrets'<span id="r">R</span>'Us</h1>
+        <h4>Purchase your new furry pet today!</h4>
+      </div>
       <form id="name">
         <div class="row">
           <div class="col-md-4">
@@ -61,13 +63,19 @@
           </div>
         </div>
       </form>
-      <div class="row" id="receipt">
-        <div class="col-md-6">
-          <h4>Order Confirmation</h4>
-          <p>Name: <span id="firstNameOut"></span> <span id="lastNameOut"></span> <br>Address:<span id="streetOut"></span><br><span id="cityOut"></span>, <span id="stateOut"></span><br><span id="zipOut"></span> 
+      <div class="row">
+        <div class="col-md-6" id="receipt">
+          <h4><strong>Order Confirmation</strong></h4>
+          <h5>Name:</h5>
+          <p><span id="firstNameOut"></span> <span id="lastNameOut"></span></p> <h5><strong>Address:</strong></h5>
+          <p>
+            <span id="streetOut"></span><br><span id="cityOut"></span>, <span id="stateOut"></span><br><span id="zipOut"></span>
+          </p>
+          <h5>You ordered a <span id="genderOut"></span> ferret!</h5>
         </div>
         <div class="col-md-6">
-          <img src="#" alt="A ferret">
+          <img src="img/ferretm.png" alt="A male ferret" id="maleImg">
+          <img src="img/ferretf.jpg" alt="A female ferret" id="femaleImg">
         </div>
       </div>
     </div>
